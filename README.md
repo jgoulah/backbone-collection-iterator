@@ -11,5 +11,5 @@ Include backbone-collection-iterator.js after having included backbone.js:
 
 Given a model in a collection, get the prev or next based on the insertion order:
 
-    nextmodel = someCollection.prev(model);
-    prevmodel = someCollection.next(model);
+    nextmodel = someCollection.next(model);
+    prevmodel = someCollection.prev(model);
