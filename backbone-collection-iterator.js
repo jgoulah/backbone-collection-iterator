@@ -13,5 +13,5 @@ _.extend(Backbone.Collection.prototype, {
     prev: function(model) {
         var index = this.indexOf(model) - 1;
         return this.at(index > -1 ? index : _.size(this) - 1);
-    },
+    }
 });
